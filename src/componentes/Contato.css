@@ -1,0 +1,66 @@
+.c{
+    background: #f9f9f9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tituloContato{
+    margin-bottom: 50px;
+}
+.tituloContato h1{
+    border-bottom: 1px solid #81b21b;
+    display: inline;
+    font-size: 2.5rem;
+}
+
+.Contato{
+    background: white;
+    width: 85%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.Contato form{
+   text-align: initial;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: initial;
+   justify-items: center;
+   margin-bottom: 30px;
+
+}
+.Contato form input{
+    width: 30vw;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 1rem;
+    color: gray;
+    padding: 7px;
+}
+.Contato form textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 30vw;
+    margin-top: 21px;
+    outline: none;
+    font-size: 1rem;
+    color: gray;
+    padding: 7px;
+}
+.Contato form label{
+    color: grey;
+    
+}
+.sendMessage{
+    cursor: pointer;
+    padding: 10px;
+    border:1px solid #81b21b;
+}
+.sendMessage:hover{
+    color: white;
+    padding: 10px;
+    background-color:#81b21b ;
+     
+}

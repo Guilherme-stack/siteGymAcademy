@@ -1,0 +1,41 @@
+.CardTreinadores img{
+    width: 100%;
+}
+.CardTreinadores{
+     
+    display: grid;
+    grid-gap: 8px;
+    grid-template-rows:auto auto auto auto auto;
+    box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 30%);
+}
+.CardTreinadores p{
+    color: gray;
+    margin: 10px;
+}
+.CardTreinadores h3 strong{
+    color: #81b21b;
+}
+.CardTreinadores h3{
+    font-size: 1.5rem;
+}
+
+.viewMore{
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #81b21b;
+    cursor: pointer;
+}
+.viewMore:hover{
+    
+    color: black;
+    transition: 0.5s;
+    color: white;
+    background-color:#81b21b ;
+}
+.CardTreinadores:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}

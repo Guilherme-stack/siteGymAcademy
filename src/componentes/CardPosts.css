@@ -1,0 +1,57 @@
+.imagePost img{
+     width: 100%;
+}
+.CardPosts{
+    text-align: initial;
+    box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.CardPosts:hover{
+    transform: translateY(-25px);
+    transition: 0.5s;
+     
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.readMore{
+   border: 1px solid #81b21b;
+   padding:10px;
+   cursor: pointer;
+}
+.readMore:hover{
+    background:#81b21b ;
+    color: white;
+ }
+.like span{
+    margin-left: 5px;
+}
+.like img{
+    width: 20px;
+  
+}
+.CardPosts strong{
+    color: gray;
+    font-size: 1rem;
+}
+.postTitulo, .postNome, .postData, .postTexto{
+    padding: 5px 15px;
+}
+.postTitulo{
+    color: #81b21b;
+}
+.postData span img{
+    width: 17px;
+}
+.postData{
+    color:grey;
+}
+.postTexto{
+    color: grey;
+}

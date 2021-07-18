@@ -1,0 +1,50 @@
+ 
+@media(min-width:1000px){
+    .Treinadores{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+         
+    }
+    .treinadoresTitulo{
+        
+        font-size: 3rem;
+        border-bottom: 2px solid #81b21b;
+        display: inline;
+         
+    }
+}
+@media(max-width:1000px){
+    .Treinadores{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .treinadoresTitulo{
+        
+        font-size: 3rem;
+        border-bottom: 2px solid #81b21b;
+        display: inline;
+         
+    }
+}
+@media(max-width:500px){
+    .Treinadores{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .treinadoresTitulo{
+        
+        font-size: 3rem;
+        border-bottom: 2px solid #81b21b;
+        display: inline;
+         
+    }
+}
+.Treinadores{
+    margin: 80px 20px 55px 20px ;
+}

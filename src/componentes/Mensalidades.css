@@ -1,0 +1,33 @@
+ 
+@media(max-width:900px){
+    .Mensalidade{
+        background-color: #ebebeb;
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .m{
+        background-color: #ebebeb;
+    }
+}
+@media(min-width:900px){
+    .Mensalidade{
+        background-color: #ebebeb;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
+         
+    }
+    .m{
+        padding-top: 30px;
+        background-color: #ebebeb;
+    }
+    .title{
+        
+        font-size: 2.5rem;
+        border-bottom: 2px solid #81b21b;
+        display: inline;
+    }
+}

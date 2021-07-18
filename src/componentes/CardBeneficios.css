@@ -1,0 +1,39 @@
+.CardBeneficios img{
+    margin: auto;
+    width: 55px;
+    background-color: #81b21b;
+    padding: 23px; 
+}
+.CardBeneficios{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 370px;
+    display: grid;
+    grid-gap: 10px;
+    box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 30%);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.CardBeneficios:hover{
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+.CardBeneficios p{
+    color: #6a6a6a;
+    padding: 0px 10px 0px 10px;
+}
+.CardBeneficios h2{
+    border:#81b21b ;
+    color: #81b21b;
+}
+.CardBeneficios hr{
+    height: 0px;
+    background-color: #81b21b;
+}
+.CardBeneficios h4{
+     color:#81b21b ;
+}

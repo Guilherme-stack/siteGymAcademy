@@ -1,0 +1,58 @@
+.Horarios table{
+ margin: auto;
+ width: 90%;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+.Horarios span{
+    background-color: #82b21b;
+    width: 10px;
+    padding: 10px 15px;
+    margin: 10px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+     
+}
+.spans{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.spans span{
+    margin: auto;
+    font-size: 0.9rem;
+    width: auto;
+}
+.Horarios span:hover{
+    background-color: #5a7b13;
+    transition: 0.5s;
+}
+.Horarios table tr td{
+    background-color: #689110ec;;
+    padding: 20px 10px;
+     
+    color: white;
+}
+.Horarios table tr td:hover{
+    background-color: #82b21b97;;
+    transition: 0.5s;
+}
+.Horarios{
+    background-color: #82b21b34; ;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+.Horarios h1{
+    margin-top: -50px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #82b21b;
+    display: inline-block;
+}
+
+ 
+ 
